@@ -9,7 +9,8 @@ public class Sandbox {
     public static void main(String[] args) {
         // class nov 28
         int n = 10;
-        // ask for 10!
+        // ask for n! -- this starts the recursive stack of method calls
+        // someone will keep asking for a smaller version until someone has an answer
         System.out.println("The value of " + n + "! is " + factorial(n));
         
 
